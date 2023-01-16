@@ -2,12 +2,16 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<h3>O mnie</h3>
-	<b>Imie:</b> Dominik<br>
-	<b>Nazwisko:</b> Nowak
-	<h3>Hobby</h3>
+	<div id="omnie">
+		<h3>O mnie</h3>
+		<b>Imie:</b> Dominik<br>
+		<b>Nazwisko:</b> Nowak
+	</div>
+	
+	<h3 style="clear: both;">Hobby</h3>
 	<ul>
 		<li>seriale</li>
 		<li>Czytanie</li>
@@ -19,15 +23,15 @@
 	<a href="https://gdansk.pja.edu.pl/pl/">To jest link</a>
 	<h3>Tabela</h3>
 	<table border="1">
-		<tr>
+		<tr id="tr1">
 			<th>Przedmiot</th>
 			<th>Ocena</th>
 		</tr>
-		<tr>
+		<tr id="tr2">
 			<td>MAD</td>
 			<td>4</td>
 		</tr>
-		<tr>
+		<tr id="tr3">
 			<td>PRO1</td>
 			<td>5</td>
 		</tr>
@@ -42,7 +46,7 @@
 		Nazwisko:<input type="text" name="surname"><br>
 		nr:<input type="text" name="nr"><br>
 		link:<input type="text" name="link">
-		<input type="submit" name="">
+		<input type="submit" name="" class="takieo_o">
 	</form>
 	
 </body>

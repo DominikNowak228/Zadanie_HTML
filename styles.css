@@ -1,0 +1,34 @@
+body{
+	background-color: gray;
+}
+#omnie
+{
+	background-color: red;
+	font-weight: 900;
+	font-style: italic;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+table{
+	width: 50%;
+}
+#tr1{
+	background-color: #f000f0;
+}
+#tr2{
+	background-color: #f0f000;
+}
+#tr3{
+	background-color: #f00f00;
+}
+
+ul{
+	list-style-type: upper-roman;
+}
+
+.takie_o
+{
+	background-color: #0066ff
+	border-radius:20px;
+}
